@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@font-face {
+  font-family: "dana-fanum regular";
+  src: url("../src/fonts/@font-face/ae238c3ee498c52a23aab0d9f5e94d6b.eot");
+  /* IE9*/
+  src: url("../src/fonts/@font-face/ae238c3ee498c52a23aab0d9f5e94d6b.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */
+    url("../src/fonts/@font-face/ae238c3ee498c52a23aab0d9f5e94d6b.woff2") format("woff2"),
+    /* chrome、firefox */
+    url("../src/fonts/@font-face/ae238c3ee498c52a23aab0d9f5e94d6b.woff") format("woff"),
+    /* chrome、firefox */
+    url("../src/fonts/@font-face/ae238c3ee498c52a23aab0d9f5e94d6b.ttf") format("truetype"),
+    /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url("../src/fonts/@font-face/ae238c3ee498c52a23aab0d9f5e94d6b.svg#dana-fanum regular") format("svg");
+  /* iOS 4.1- */
+}
+
+*{
+  font-family: "dana-fanum regular";
+}
